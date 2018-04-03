@@ -296,7 +296,7 @@ function SelfCamera() {
      */
     SelfCamera.prototype.onCaptureVideoError =
         function onCaptureVideoError(e) {
-    	    alert("WOW! Error!");
+    	    alert("WOW! Error!: <<"+e.toString()+">>");
             console.error(e);
         };
 
